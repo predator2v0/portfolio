@@ -20,20 +20,20 @@ const AllProjects = [
         techStack: ["HTML", "CSS", "JavaScript", "React"],
         url: "https://github.com/predator2v0/portfolio",
     },
-    {
-        name: "Java beginners demo",
-        description:
-            "A repo containing number of java programs and their descriptions for beginners trying their luck on java language.",
-        techStack: ["java SE"],
-        url: "https://github.com/predator2v0/core-java-programs",
-    },
-    {
-        name: "Java Collection demo",
-        description:
-            "A repo containing number of java Collection Framework programs and their descriptions. completely beginner friendly.",
-        techStack: ["java SE"],
-        url: "https://github.com/predator2v0/collection-framework",
-    },
+    // {
+    //     name: "Java beginners demo",
+    //     description:
+    //         "A repo containing number of java programs and their descriptions for beginners trying their luck on java language.",
+    //     techStack: ["java SE"],
+    //     url: "https://github.com/predator2v0/core-java-programs",
+    // },
+    // {
+    //     name: "Java Collection demo",
+    //     description:
+    //         "A repo containing number of java Collection Framework programs and their descriptions. completely beginner friendly.",
+    //     techStack: ["java SE"],
+    //     url: "https://github.com/predator2v0/collection-framework",
+    // },
     {
         name: "Tic-Tac-Toe",
         description:
