@@ -4,6 +4,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Social from "./components/Social";
 const Home = () => {
     return (
         <div className='container'>
@@ -12,6 +13,7 @@ const Home = () => {
             <About />
             <Experience />
             <Projects />
+            <Social />
             <Footer />
         </div>
     );
