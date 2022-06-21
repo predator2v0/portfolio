@@ -4,6 +4,9 @@ const Profile = () => {
     const viewResume = () =>{
         window.open('res/subhakanta_roul_resume.pdf', '_blank');
     }
+    const hireMe = () =>{
+        window.open('mailto: papu.roul99@gmail.com', '_blank');
+    }
     return (
         <div className='profile'>
             <img src='profile.jpg' alt='profile' className='profile__image' />
@@ -13,7 +16,7 @@ const Profile = () => {
             </div>
             <div className='action__buttons'>
                 <button className='resume__button' onClick={viewResume}>View Resume</button>
-                <button className='hire__button'>Hire Me!</button>
+                <button className='hire__button' onClick={hireMe}>Hire Me!</button>
             </div>
         </div>
     );
