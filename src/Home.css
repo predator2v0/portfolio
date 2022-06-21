@@ -121,7 +121,6 @@
 .exp__card {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    background: #fbf9fc;
     border-radius: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     border: 1.5px solid rgba(0, 0, 0, 0.1);
@@ -179,7 +178,6 @@
     grid-gap: 0.5rem;
 }
 .project__card {
-    background: #fbf9fc;
     border-radius: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     border: 1.5px solid rgba(0, 0, 0, 0.1);
