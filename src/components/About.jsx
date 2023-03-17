@@ -8,8 +8,8 @@ const About = () => {
                 I am a software developer based in Bangalore, India. I have a
                 passion for building web applications and I primarily work on
                 MERN stack application development. I love to learn new
-                technologies. I am currently working in an MNC, developing a web
-                application for a client using MERN stack.
+                technologies. I am currently working in an MNC, developing web
+                applications for clients across globe.
             </p>
             <div className='contact'>
                 <div className='location'>
@@ -19,12 +19,12 @@ const About = () => {
                 <div className='website'>
                     <p className='contact__type'>Website</p>
                     <a
-                        href='https://subhakanta-roul.netlify.app'
+                        href='https://subhakantaroul.netlify.app'
                         target='_blank'
                         rel='noreferrer noopener'
                         className='contact__info'
                     >
-                        subhakanta-roul.netlify.app &#8599;
+                        subhakantaroul.netlify.app &#8599;
                     </a>
                 </div>
                 <div className='email'>

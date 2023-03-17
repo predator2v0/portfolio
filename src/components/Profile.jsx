@@ -9,7 +9,7 @@ const Profile = () => {
     }
     return (
         <div className='profile'>
-            <img src='profile.jpg' alt='profile' className='profile__image' />
+            <img src='profile-pic.png' alt='profile' className='profile__image' />
             <div className='profile__details'>
                 <h1>Subhakanta Roul</h1>
                 <p>I'm a Software Developer based in Bangalore, India</p>
