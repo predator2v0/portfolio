@@ -1,3 +1,4 @@
+@import "./variables.scss";
 // :root {
 //   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 //   line-height: 1.5;
@@ -37,6 +38,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: $heading-font;
+}
+h2{
+  font-family: $heading-font;
 }
 
 button {
