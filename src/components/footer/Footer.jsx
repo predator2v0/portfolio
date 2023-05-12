@@ -1,6 +1,7 @@
+import './footer.scss'
 const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
             <h2>Footer Component</h2>
         </div>
     );
