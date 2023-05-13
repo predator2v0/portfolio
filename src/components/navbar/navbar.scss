@@ -1,10 +1,9 @@
-@import '../../styles/variables.scss';
-@import '../../styles/mixins.scss';
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: $accent-navbar;
     padding: 0.5rem;
     & .nav-brand {
         display: flex;
@@ -15,34 +14,32 @@
             height: 50px;
             margin-right: 10px;
         }
-        & h1{
-            @include navbar-links;
-        }
     }
-    & .nav-menu{
+    & .nav-menu {
         display: flex;
         place-items: center;
-        & ul{
+        & ul {
             display: flex;
             justify-content: center;
             align-items: center;
             list-style-type: none;
-            & li{
+            & li {
                 margin: auto 5px;
-                & a{
+                & a {
                     @include navbar-links;
-                    padding: 0.5rem 1rem;
-                    &:hover{
-                        @include nav-links-hover;
+                    padding: 0.5rem 1.2rem;
+                    transition: all 0.3s ease-in-out;
+                    &:hover {
+                        border: 1px solid $secondary-color;
                     }
                 }
             }
         }
     }
-    & .social-profiles{
+    & .social-profiles {
         display: flex;
         place-items: center;
-        & a{
+        & a {
             @include navbar-links;
             margin: auto 15px;
             border-radius: 50%;
@@ -51,10 +48,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            // border: 1px solid #fff;
-
-            &:hover{
-                @include nav-links-hover;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: $primary-color;
+                background-color: $secondary-color;
             }
         }
     }

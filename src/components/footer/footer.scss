@@ -1,4 +1,7 @@
-.footer{
+@import "../../styles/variables.scss";
+
+.footer {
     height: 50px;
     margin-top: auto;
+    background-color: $accent-orange;
 }
