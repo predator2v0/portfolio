@@ -1,4 +1,6 @@
 import './navbar.scss'
+import {FiGithub} from 'react-icons/fi'
+import {FiLinkedin} from 'react-icons/fi'
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -24,6 +26,14 @@ const Navbar = () => {
                         <a href="#contact">contact</a>
                     </li>
                 </ul>
+            </div>
+            <div className="social-profiles">
+                <a href="https://github.com/predator2v0" className="github">
+                    <FiGithub size="1.5rem"/>
+                </a>
+                <a href="https://linkedin.com/in/subhakanta-roul" className="linkedin">
+                    <FiLinkedin size="1.5rem"/>
+                </a>
             </div>
         </nav>
     );
