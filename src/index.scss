@@ -1,0 +1,53 @@
+@import "./styles/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    color: $secondary-color;
+}
+p,
+a,
+span {
+    font-family: $body-font;
+    color: $secondary-color;
+}
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+a {
+    font-weight: 500;
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    &:hover{
+        font-weight: bold;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border: 2px solid $secondary-color;
+        border-radius:4px;
+    }
+}
+

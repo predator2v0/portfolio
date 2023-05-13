@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+@mixin navbar-links{
+    color: $secondary-color;
+    text-decoration: none;
+    text-transform: capitalize;
+}
