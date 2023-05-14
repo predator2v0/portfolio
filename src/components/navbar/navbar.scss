@@ -30,7 +30,8 @@
                     padding: 0.5rem 1.2rem;
                     transition: all 0.3s ease-in-out;
                     &:hover {
-                        border: 1px solid $secondary-color;
+                        font-weight: bold;
+                        color: $accent-orange;
                     }
                 }
             }
@@ -39,6 +40,7 @@
     & .social-profiles {
         display: flex;
         place-items: center;
+        padding: 0.5rem;
         & a {
             @include navbar-links;
             margin: auto 15px;

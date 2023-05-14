@@ -20,8 +20,12 @@
                 padding: 0.5rem 1.8rem;
                 font-family: $body-font;
             }
-            & .resume{
+            & .resume-cta{
+                @include button;
                 margin-right: 3rem;
+            }
+            & .hire-me-cta{
+                @include outlined-button;
             }
         }
     }
@@ -29,3 +33,4 @@
         flex: 1;
     }
 }
+
