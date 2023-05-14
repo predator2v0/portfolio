@@ -16,10 +16,10 @@ const Footer = () => {
                     <h2>Hello!</h2>
                     <div className='social-profiles'>
                         <a href='https://github.com/predator2v0'>
-                            <FiGithub size='1.5rem' />
+                            <FiGithub size='1rem' />
                         </a>
                         <a href='https://linkedin.com/en/subhakanta-roul'>
-                            <FiTwitter size='1.5rem' />
+                            <FiTwitter size='1rem' />
                         </a>
                     </div>
                 </div>
