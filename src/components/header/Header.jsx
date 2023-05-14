@@ -21,10 +21,10 @@ const Header = () => {
                     building scalable and robust web applications.
                 </p> */}
                 <div className="hero-cta">
-                    <button className="resume">
+                    <button className="resume-cta">
                         Resume
                     </button>
-                    <button className="hire-me">
+                    <button className="hire-me-cta">
                         Hire Me
                     </button>
                 </div>

@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Manuale:wght@300;400;500;700&display=swap");
 
-$heading-font: Inter;
-$body-font: Manuale;
+$heading-font: Inter, 'sans-serif';
+$body-font: Manuale, 'sans-serif';
 
 $primary-color: #171923;
 $secondary-color: #edf2f7;
 $accent-orange: #e37628;
 $accent-blue-1: #1a202c;
 $accent-blue-2: #213547;
+
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
