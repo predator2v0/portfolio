@@ -1,0 +1,43 @@
+[
+    {
+        "image": "path/to/project-thumbnail.jpg",
+        "title": "Pizzeria Client",
+        "description": "The front-end of the MERN stack pizza ordering app is built with React, providing a responsive and user-friendly interface. Users can effortlessly browse pizza options, customize their orders, and seamlessly place their desired pizzas with a few clicks. Real-time updates enhance the ordering experience, ensuring a smooth and engaging interface.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "JWT",
+            "SASS",
+            "Redux",
+            "Axios"
+        ],
+        "githubLink": "https://github.com/predator2v0/pizzeria-client"
+    },
+    {
+        "image": "path/to/project-thumbnail.jpg",
+        "title": "Pizzeria Server",
+        "description": "The back-end of the MERN stack pizza ordering app is powered by Node.js and Express.js. It efficiently handles server-side logic, managing the database and processing user requests. Leveraging MongoDB for data storage, the back-end ensures fast and reliable performance, enabling seamless communication between the front-end and database for a smooth pizza ordering process.",
+        "tags": [
+            "Node.js",
+            "Express.js",
+            "JWT",
+            "MongoDB",
+            "Mongoose"
+        ],
+        "githubLink": "https://github.com/predator2v0/pizzeria-client"
+    },
+    {
+        "image": "path/to/project-thumbnail.jpg",
+        "title": "Custom Castle",
+        "description": "House Rental Management System is a website developed using HTML, CSS, PHP, and MySQL, utilizing the XAMPP stack. It provides a comprehensive solution for managing house rentals. Users can easily search and view available properties, submit rental applications, and track rental payments. The system efficiently handles data storage, processing, and user interactions, streamlining the rental management process.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "XAMPP"
+        ],
+        "githubLink": "https://github.com/predator2v0/hrms"
+    }
+]
