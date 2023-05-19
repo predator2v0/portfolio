@@ -1,6 +1,5 @@
 import "./navbar.scss";
-import { FiGithub } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMenu } from "react-icons/fi";
 const Navbar = () => {
     return (
         <nav className='navbar container'>
@@ -40,6 +39,9 @@ const Navbar = () => {
                 >
                     <FiLinkedin size='1.5rem' />
                 </a>
+            </div>
+            <div className="toggle-navbar">
+                <FiMenu size="2rem"/>
             </div>
         </nav>
     );
