@@ -2,6 +2,7 @@
 @import "../../styles/mixins.scss";
 
 .navbar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
@@ -55,6 +56,52 @@
                 color: $primary-color;
                 background-color: $secondary-color;
             }
+        }
+    }
+    & .toggle-navbar {
+        display: none;
+    }
+}
+@media (max-width: $md) {
+    .navbar {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        & .nav-brand {
+            & .logo {
+                width: 40px;
+                height: 40px;
+                margin-right: 0;
+            }
+        }
+
+        & .nav-menu {
+            & ul {
+                display: block;
+                margin: 1rem auto;
+                & li {
+                    padding: 1rem 0;
+                }
+            }
+            &.hide {
+                display: none;
+            }
+        }
+        & .social-profiles {
+            & a {
+                margin: 0 auto;
+                text-align: center;
+            }
+            &.hide {
+                display: none;
+            }
+        }
+        & .toggle-navbar {
+            display: block;
+            color: $secondary-color;
+            position: absolute;
+            top: 10px;
+            left: 10px;
         }
     }
 }

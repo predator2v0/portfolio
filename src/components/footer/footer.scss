@@ -20,7 +20,7 @@
                 place-items: center;
                 padding: 0.5rem;
                 a {
-                    margin: auto 15px;
+                    margin: auto 0px auto 10px;
                     border-radius: 50%;
                     width: 40px;
                     height: 40px;
@@ -80,6 +80,13 @@
                     rotate3d(1, 0, 0, 0deg) rotate3d(0, 0, 1, -4deg)
                     translateY(3px);
             }
+        }
+    }
+}
+@media(max-width:1280px){
+    .footer{
+      & .container{
+            padding: 2rem;
         }
     }
 }
