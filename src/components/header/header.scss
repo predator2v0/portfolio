@@ -34,3 +34,23 @@
     }
 }
 
+@media(max-width: $lg){
+    .header{
+        & .hero{
+            & h1{
+                font-size:2.5rem;
+            }
+        }
+    }
+}
+@media(max-width: $md){
+    .header{
+        & .bg-animation{
+            display: none;
+        }
+    }
+
+}
+@media(max-width: $sm){
+
+}
