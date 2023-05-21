@@ -29,7 +29,7 @@
                 width: 100%;
                 padding: 0.6rem 0.8rem;
                 text-align: left;
-                height: 200px;
+                // height: 200px;
             }
             & .tags{
                 width: 100%;
@@ -39,7 +39,7 @@
                 flex-wrap: wrap;
                 & .tag{
                     border: 1px solid #fff;
-                    margin: 0 0.2rem;
+                    margin: 0.1rem 0.2rem;
                     padding: 0.3rem 0.5rem;
                 }
             }
