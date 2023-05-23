@@ -18,7 +18,7 @@ const Footer = () => {
                         <a href='https://github.com/predator2v0'>
                             <FiGithub size='1rem' />
                         </a>
-                        <a href='https://linkedin.com/en/subhakanta-roul'>
+                        <a href='https://twitter.com/predator2v0'>
                             <FiTwitter size='1rem' />
                         </a>
                     </div>
