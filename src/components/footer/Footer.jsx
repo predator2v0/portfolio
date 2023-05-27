@@ -10,7 +10,7 @@ import { AiOutlineCopyright } from "react-icons/ai";
 import "./footer.scss";
 const Footer = () => {
     return (
-        <div className='footer'>
+        <section className='footer' id="footer">
             <div className='container'>
                 <div className='footer-heading'>
                     <h2>Hello!</h2>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

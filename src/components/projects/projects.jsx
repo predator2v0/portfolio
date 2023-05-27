@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 const projects = () => {
     console.log(allProjects);
     return (
-        <section className='projects container'>
+        <section className='projects container' id="projects">
             <h1 className='section-title'>My Projects</h1>
             <div className='project-container'>
                 {allProjects.map((project, id) => (
