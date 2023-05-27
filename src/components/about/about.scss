@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+.about {
+    & .about-content {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media(max-width: $md){
+    .about{
+        & .about-content{
+            width: 100%;
+        }
+    }
+}
