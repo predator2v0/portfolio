@@ -18,19 +18,16 @@ const Navbar = () => {
             <div className={`nav-menu ${!showNav ? "hide" : ""}`}>
                 <ul>
                     <li>
-                        <a href='#home'>home</a>
+                        <a href='#header'>home</a>
                     </li>
                     <li>
                         <a href='#about'>about</a>
                     </li>
                     <li>
+                        <a href='#projects'>work</a>
+                    </li>
+                    <li>
                         <a href='#blog'>blog</a>
-                    </li>
-                    <li>
-                        <a href='#work'>work</a>
-                    </li>
-                    <li>
-                        <a href='#contact'>contact</a>
                     </li>
                 </ul>
             </div>
